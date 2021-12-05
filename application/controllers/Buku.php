@@ -64,6 +64,7 @@ class Buku extends CI_Controller
             ]
         );
         //konfigurasi sebelum gambar diupload
+        
         $config['upload_path'] = './assets/img/upload/';
         $config['allowed_types'] = 'jpg|png|jpeg';
         $config['max_size'] = '3000';
